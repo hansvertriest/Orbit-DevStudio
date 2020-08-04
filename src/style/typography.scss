@@ -1,0 +1,57 @@
+* {
+    font-family: $font-type;
+    font-size: $font-size-lg;
+    color: $black;
+}
+
+.nav-section-container-nav__item {
+    font-family: $font-type;
+    font-size: $font-size-lg;
+
+    color: $black;
+}
+
+h1 {
+    font-size: $font-size-h1-lg;
+    font-weight: 500;
+    font-family: $font-type;
+    color: $black;
+
+    strong {
+        font-size: $font-size-h1-lg;
+        font-weight: 500;
+        font-family: $font-type;
+        color: $primary-color;
+
+    }
+}
+
+h2 {
+    font-size: $font-size-h1-lg;
+    font-weight: 200;
+    font-family: $font-type;
+    color: $black;
+}
+
+@media only screen and (max-width: 678px) {
+    * {
+        font-size: $font-size-lg;
+    }
+    
+    .nav-section-container-nav__item {
+        font-size: $font-size-lg;
+    }
+    
+    h1 {
+        font-size: $font-size-h1-sm;
+    
+        strong {
+            font-size: $font-size-h1-sm;
+    
+        }
+    }
+    
+    h2 {
+        font-size: $font-size-h1-sm;
+    }
+}

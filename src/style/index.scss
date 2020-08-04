@@ -1,0 +1,16 @@
+@import './variables.scss';
+@import './typography.scss';
+
+@import './components/buttons.scss';
+@import './components/header.scss';
+@import './components/landing.scss';
+@import './components/visionSection.scss';
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+
+    overflow-y: visible !important;
+}

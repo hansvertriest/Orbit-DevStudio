@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap');
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 600px,
+  md: 800px,
+  lg: 1200px,
+  xl: 1280px
+);
+
+$nav-color: rgba(255, 255, 255, 0.3);
+$primary-color: #F29F05;
+$red: #BF3B3B;
+$text-white: #FFF5E2;
+
+$font-type: 'Montserrat';
+$font-size-lg: 14px;
+$font-size-h1-lg: 36px;
+$font-size-h1-sm: 24px;
+
+
+$black: #024959;

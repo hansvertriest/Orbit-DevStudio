@@ -1,0 +1,145 @@
+.landing {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+}
+
+.landing-text {
+    position: relative;
+    right: -20px;
+    opacity: 0;
+    margin-top: 30px;
+    transition: right 0.5s, opacity 0.4s;
+
+    .landing-text__button-group {
+        #landing-contact-me {
+            position: relative;
+            top: 10px;
+            opacity: 0;
+            transition: top 0.2s cubic-bezier(.52,.57,.57,1.73), opacity 0.3s;
+        }
+
+        #landing-projects {
+            position: relative;
+            top: 10px;
+            opacity: 0;
+            transition: top 0.2s cubic-bezier(.52,.57,.57,1.73), opacity 0.3s;
+        }
+    }
+}
+
+.landing-left-placeholder {
+    height: 400px;
+}
+
+.landing-left-placeholder-sm {
+    height: 250px;
+}
+
+.next-section-button-container {
+    position: relative;
+    top: 100px;
+    margin: 50px 0;
+}
+
+.logo-container {
+    padding-right: 20%;
+    .landing-logo {
+        position: relative;
+        max-width: 400px;
+    
+        transition: margin 0.3s;
+    
+        .landing-logo__empty {
+            position: absolute;
+            opacity: 1;
+        }
+        .landing-logo__text {
+            position: absolute;
+            width: 70%;
+            top: 130px;
+            left: 205px;
+            transition: opacity 0.3s;
+        }
+        .landing-logo__red-dot {
+            position: absolute;
+            top: 155px;
+            right: -28px;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: $red;
+            z-index: 1;
+    
+            transform: translate(-50%, -50%);
+            transition: transform 0.5s cubic-bezier(.52,.57,.67,1.49), top 0.5s;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            img {
+                opacity: 0;
+                width: 65%;
+                margin: auto;
+                transition: opacity 0.1s;
+            }
+        }
+    }
+}
+
+.landing-logo-sm {
+    position: relative;
+    max-width: 200px;
+    margin: 0 auto;
+
+    transition: right 0.3s;
+
+    .landing-logo__empty {
+        position: absolute;
+        opacity: 1;
+        width: 100%;
+    }
+    .landing-logo__text {
+        position: absolute;
+        width: 70%;
+        top: 63px;
+        left: 102px;
+        transition: opacity 0.3s;
+    }
+    .landing-logo__red-dot {
+        position: absolute;
+        top: 75px;
+        right: -13px;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: $red;
+        z-index: 1;
+
+        transform: translate(-50%, -50%);
+        transition: transform 0.5s cubic-bezier(.52,.57,.67,1.49), top 0.5s;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            opacity: 0;
+            width: 80%;
+            margin: auto;
+            transition: opacity 0.1s;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .landing {
+        padding-top: 150px;
+    }
+    .next-section-button-container {
+        position: relative;
+        top: 0;
+    }
+}
