@@ -1,0 +1,14 @@
+.work-list-item {
+    list-style-type: none;
+
+    display: flex;
+
+    .work-list-item__bullet {
+        display: inline-block;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: $orange-shade-1;
+        margin-right: 15px;
+    }
+}

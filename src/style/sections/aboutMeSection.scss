@@ -3,7 +3,7 @@
     // min-height: 100vh;
 
     padding-top: 20vw;
-    padding-bottom: 15vw;
+    padding-bottom: 20vw;
 
     position: relative;
 
@@ -26,11 +26,53 @@
     .side-bar {
         width: 380px;
         position: absolute;
-        left: -100px;
+        left: -50px;
+        top: -5vw;
+
+        .about-me-quote {
+            font-size: 22px;
+            text-align: center;
+        }
+    }
+
+    .side-bar--sm {
+        padding-top: 30px;
+        img {
+            position: relative;
+            left: -20px;
+        }
+        .about-me-quote {
+            margin: 0 auto;
+            font-size: 18px;
+            text-align: center;
+        }
     }
 
     .next-section-button-container {
         position: absolute;
-        top: 12vw;
+        top: 10vw;
     }
+
+    .next-section-button-container-bottom {
+        position: absolute;
+        bottom: 8vw;
+    }
+
+    .work-list {
+        margin: 0;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-me-section {
+        padding-top: 100px;
+        padding-bottom: 150px;
+        background-image: url(../images/ui/about-me-bg-sm.svg);
+        .side-bar {
+            top: 0;
+            left: -10px;
+        }
+    }
+
 }

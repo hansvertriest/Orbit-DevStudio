@@ -125,7 +125,7 @@ const Landing = () => {
                     </div>
                 </div>
             </div>
-            <div className="next-section-button-container">
+            <div className="next-section-button-container d-none d-sm-block">
                 <NextSectionButton callback={goToNextSection} text="Ontdek mijn visie" />
             </div>
             </div>
