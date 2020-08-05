@@ -61,7 +61,7 @@ const Landing = () => {
         setTimeout(() => {
             logoContainer.style.right = "15%";
             logoDot.style.top = '90px';
-            logoDot.style.transform = "scale(14)";
+            logoDot.style.transform = "scale(12)";
             logoDotImage.style.opacity = 1;
             console.log()
         }, 1800);
@@ -125,7 +125,6 @@ const Landing = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="landing-section-spacer d-none d-md-block"></div> */}
             <div className="next-section-button-container">
                 <NextSectionButton callback={goToNextSection} text="Ontdek mijn visie" />
             </div>

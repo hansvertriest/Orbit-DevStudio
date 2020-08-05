@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import { Landing, VisionSection } from '../components/sections';
+import { Landing, VisionSection, AboutMeSection } from '../components/sections';
 
 
 const IndexPage = () => (
@@ -13,6 +13,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Landing />
     <VisionSection />
+    <AboutMeSection />
   </Layout>
 )
 

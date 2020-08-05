@@ -3,8 +3,10 @@
 
 @import './components/buttons.scss';
 @import './components/header.scss';
-@import './components/landing.scss';
-@import './components/visionSection.scss';
+
+@import './sections/landing.scss';
+@import './sections/visionSection.scss';
+@import './sections/aboutMeSection.scss';
 
 body {
     overflow-x: hidden;

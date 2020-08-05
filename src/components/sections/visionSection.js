@@ -4,6 +4,7 @@ import bubblesRight from '../../images/ui/bubbles-right.svg';
 import bubblesRightSmall from '../../images/ui/bubbles-right-sm.svg';
 
 const VisionSection = () => {
+
     return(
         <div className="vision-section" id="vision">
 
@@ -11,8 +12,6 @@ const VisionSection = () => {
             <img className="bubbles-right-sm d-block d-lg-none" src={bubblesRightSmall} />
             <div className="container">
             <div className="vision-section-spacer d-block d-lg-none"></div>
-            <div className="row">
-            </div>
             <div className="row">
                 <div className="col-12 col-md-8">
 

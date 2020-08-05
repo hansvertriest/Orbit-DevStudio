@@ -1,0 +1,36 @@
+.about-me-section {
+    width: 100vw;
+    // min-height: 100vh;
+
+    padding-top: 20vw;
+    padding-bottom: 15vw;
+
+    position: relative;
+
+    display: flex;
+    align-items:center;
+
+    background-image: url(../images/ui/about-me-bg.svg);
+    background-size: cover;
+
+    // Typography
+
+    * {
+        color: $text-white;
+    }
+
+    .row {
+        position: relative;
+    }
+
+    .side-bar {
+        width: 380px;
+        position: absolute;
+        left: -100px;
+    }
+
+    .next-section-button-container {
+        position: absolute;
+        top: 12vw;
+    }
+}

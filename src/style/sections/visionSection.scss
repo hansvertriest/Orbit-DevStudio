@@ -1,13 +1,15 @@
 .vision-section {
-    padding-top: 100px;
+    padding-top: 120px;
     position: relative;
 
-    min-height: 100vh;
+    min-height: 75vh;
+    display: flex;
+    align-items:center;
 
     .bubbles-right {
         position: absolute;
         right: -140px;
-        top: -420px;
+        top: -400px;
     }
 
     .bubbles-right-sm {
@@ -23,6 +25,11 @@
 
     .vision-section-spacer {
         height: 300px;
+    }
+
+    .next-section-button-container {
+        position: absolute;
+        bottom: -260px;
     }
 }
 
