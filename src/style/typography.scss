@@ -12,13 +12,13 @@
 }
 
 h1 {
-    font-size: $font-size-h1-lg;
+    font-size: $font-size-h1;
     font-weight: 500;
     font-family: $font-type;
     color: $black;
 
     strong {
-        font-size: $font-size-h1-lg;
+        font-size: $font-size-h1;
         font-weight: 500;
         font-family: $font-type;
         color: $primary-color;
@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-    font-size: $font-size-h1-lg;
+    font-size: $font-size-h1;
     font-weight: 200;
     font-family: $font-type;
     color: $black;
@@ -43,15 +43,15 @@ h2 {
     }
     
     h1 {
-        font-size: $font-size-h1-sm;
+        font-size: $font-size-h1;
     
         strong {
-            font-size: $font-size-h1-sm;
+            font-size: $font-size-h1;
     
         }
     }
     
     h2 {
-        font-size: $font-size-h1-sm;
+        font-size: $font-size-h2-sm;
     }
 }

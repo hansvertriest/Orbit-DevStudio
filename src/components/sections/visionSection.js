@@ -9,9 +9,9 @@ const VisionSection = () => {
         <div className="vision-section" id="vision">
 
             <img className="bubbles-right d-none d-lg-block" src={bubblesRight} />
-            <img className="bubbles-right-sm d-block d-lg-none" src={bubblesRightSmall} />
             <div className="container">
-            <div className="vision-section-spacer d-block d-lg-none"></div>
+
+            <img className="bubbles-right-sm d-block d-lg-none" src={bubblesRightSmall} />
             <div className="row">
                 <div className="col-12 col-md-8">
 

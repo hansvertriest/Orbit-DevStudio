@@ -115,7 +115,8 @@ const Landing = () => {
                 <div className="landing-left-placeholder d-none d-md-block"></div>
                 <div className="landing-left-placeholder-sm d-md-none"></div>
                 <div className="landing-text col-lg col-12">
-                    <h1>Hallo, mijn naam is <strong>Hans Vertriest</strong></h1>
+                    <h1 className=""><span>Hallo,</span> mijn naam is <strong>Hans Vertriest</strong></h1>
+                    {/* <h1 className="d-sm-none">Hallo,<br/> mijn naam is <strong>Hans Vertriest</strong></h1> */}
                     <h2>Full-stack developer</h2>
                     <p>Als student New Media Development word ik opgeleid tot full-stack developer.</p>
                     <p>Daarnaast startte ik als student zelfstandige het bedrijf Orbit DevStudio, waar ik als freelancer websites, webapplicaties en smartphone applicaties ontwikkel.</p>
