@@ -4,10 +4,12 @@
 @import './components/buttons.scss';
 @import './components/header.scss';
 @import './components/workListItem.scss';
+@import './components/projectTile.scss';
 
 @import './sections/landing.scss';
 @import './sections/visionSection.scss';
 @import './sections/aboutMeSection.scss';
+@import './sections/projectSection.scss';
 
 body {
     overflow-x: hidden;

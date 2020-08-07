@@ -23,12 +23,12 @@ const AboutMeSection = () => {
                     <NextSectionButton lightMode={true} callback={goToThisSection} text="Leer me kennen" />
                 </div>
             <div className="row">
-                <div class="side-bar-spacer col-12 col-sm-4"></div>
-                <div class="side-bar d-none d-sm-block col-4">
+                <div className="side-bar-spacer col-12 col-sm-4"></div>
+                <div className="side-bar d-none d-sm-block col-4">
                     <img src={AboutMeBubbles} />
                     <p className="about-me-quote">“Het creëren van ervaring die voor de gebruiker een ware meerwaarde zijn is voor mij waar het allemaal om draait.”</p>
                 </div>
-                <div class="about-me-text col-12 col-sm-8">
+                <div className="about-me-text col-12 col-sm-8">
                     <h1>Wie ben ik?</h1>
                     <h2>Hans Vertriest</h2>
                     <p>Ik ben een student aan de Artevelde hogeschool waar ik New Media Development studeer. </p>
@@ -48,7 +48,7 @@ const AboutMeSection = () => {
                     </ul>
                 </div>
 
-                <div class="side-bar--sm d-sm-none col-12">
+                <div className="side-bar--sm d-sm-none col-12">
                     <img src={AboutMeBubbles} />
                     <p className="about-me-quote">“Het creëren van ervaring die voor de gebruiker een ware meerwaarde zijn is voor mij waar het allemaal om draait.”</p>
                 </div>

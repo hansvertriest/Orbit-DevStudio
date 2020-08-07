@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 
-import {NextSectionButton} from '../buttons';
+import {NextSectionButton, PrimaryButton, SecondaryButton} from '../buttons';
 
 import logo_empty from '../../images/logo_empty.svg';
 import logo_text from '../../images/logo_text.svg';
@@ -121,8 +121,10 @@ const Landing = () => {
                     <p>Als student New Media Development word ik opgeleid tot full-stack developer.</p>
                     <p>Daarnaast startte ik als student zelfstandige het bedrijf Orbit DevStudio, waar ik als freelancer websites, webapplicaties en smartphone applicaties ontwikkel.</p>
                     <div className="landing-text__button-group d-flex d-md-block ">
-                        <button id="landing-contact-me" className="primary-button">Contacteer me</button>
-                        <button id="landing-projects" className="secondary-button">Mijn projecten</button>
+                        {/* <button id="landing-contact-me" className="primary-button">Contacteer me</button> */}
+                        <PrimaryButton id="landing-contact-me" text="Contacteer me"/>
+                        {/* <button id="landing-projects" className="secondary-button">Mijn projecten</button> */}
+                        <SecondaryButton id="landing-projects" text="Mijn projecten"/>
                     </div>
                 </div>
             </div>
