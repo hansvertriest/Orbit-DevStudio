@@ -9,5 +9,32 @@
         display : flex;
         justify-content:center;
         flex-wrap: wrap;
+
+        .more-on-github-container {
+            margin-top: 60px;
+            margin-bottom: 80px;
+
+            display : flex;
+            align-items:center;
+            flex-direction: column;
+
+
+            img {
+                width: 50px;
+                margin: 0;
+                margin-bottom: 15px;
+            }
+        }
+
+        .more-on-github-container:hover {
+            img {
+                transform: scale(1.05)
+            }
+            p{
+                color: $primary-color;
+            }
+            cursor: pointer;
+        }
     }
+
 }

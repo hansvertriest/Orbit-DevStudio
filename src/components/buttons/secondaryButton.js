@@ -2,7 +2,7 @@ import React from 'react';
 
 const SecondaryButton = (props) => {
     return (
-    <button id={props.id} className="secondary-button">{props.text}</button>
+    <button id={props.id} className="secondary-button" onClick={props.action}>{props.text}</button>
     );
 }
 

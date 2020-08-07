@@ -33,6 +33,11 @@ h2 {
     color: $black;
 }
 
+h3 {
+    font-size: $font-size-h3;
+    color: $primary-color;
+}
+
 @media only screen and (max-width: 678px) {
     * {
         font-size: $font-size-lg;

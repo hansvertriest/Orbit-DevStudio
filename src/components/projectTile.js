@@ -3,12 +3,9 @@ import React, { useEffect } from 'react';
 import {SecondaryButton} from '../components/buttons'; 
 
 const ProjectTile = (props) => {
-    // useEffect(() => {
-    //     // set square dimensions
-    //     const element = document.querySelector(`#project-tile-${props.title.split(' ').join('-')}`);
-    //     element.style.height = `${element.offsetWidth}px`;
-    //     console.log(element.innerHeight)
-    // })
+    const action = () => {
+        window.location.href = props.link;
+    }
     
     return(
         <div id={`project-tile-${props.title.split(' ').join('-')}`} className="project-tile" >
@@ -19,7 +16,7 @@ const ProjectTile = (props) => {
                 <p className="project-tile-container__title">{props.title}</p>
                 <p className="project-tile-container__phrase" dangerouslySetInnerHTML={{__html: props.phrase}}></p>
                 <p className="project-tile-container__description" dangerouslySetInnerHTML={{__html: props.description}}></p>
-                <SecondaryButton text="Lees meer"/>
+                <SecondaryButton action={action} text="Lees meer"/>
             </div>
         </div>
     );

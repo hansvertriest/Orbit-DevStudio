@@ -4,8 +4,12 @@
     border-radius: 20px;
     margin: 20px;
 
-    width: 25vw;
-    height: 25vw;
+    width: 15vw;
+    height: 15vw;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
 
     .project-tile__img {
         // background set inline
@@ -52,7 +56,7 @@
 
         .project-tile-container__title {
             position: relative;
-            top: 30%;
+            top: 25%;
             font-weight: bold;
             font-size: 36px;
             line-height: 100%;
@@ -63,7 +67,7 @@
 
         .project-tile-container__phrase {
             position: relative;
-            top: 30%;
+            top: 25%;
             font-weight: bold;
             font-size: 14px;
             line-height: 150%;
