@@ -4,7 +4,7 @@ import {NextSectionButton, PrimaryButton, SecondaryButton} from '../buttons';
 
 import logo_empty from '../../images/logo_empty.svg';
 import logo_text from '../../images/logo-text.png';
-import memoji from '../../images/memojis/thumb.png';
+import memoji from '../../images/memojis/smile.png';
 
 const Landing = () => {
     const animation = () => {
@@ -56,7 +56,7 @@ const Landing = () => {
 
         setTimeout(() => {
             logoText.style.opacity = 0;
-        }, 1300);
+        }, 800);
 
         setTimeout(() => {
             logoContainer.style.right = "15%";
@@ -64,21 +64,21 @@ const Landing = () => {
             logoDot.style.transform = "scale(12)";
             logoDotImage.style.opacity = 1;
             console.log()
-        }, 1800);
+        }, 1200);
 
         setTimeout(() => {
             landingTextContainer.style.opacity = 1;
             landingTextContainer.style.right = 0;
-        }, 2500);
+        }, 1900);
 
         setTimeout(() => {
             contactMeButton.style.opacity = 1;
             contactMeButton.style.top = 0;
-        }, 3300);
+        }, 2700);
         setTimeout(() => {
             projectButton.style.opacity = 1;
             projectButton.style.top = 0;
-        }, 3700);
+        }, 3100);
     }
 
     useEffect(() => {

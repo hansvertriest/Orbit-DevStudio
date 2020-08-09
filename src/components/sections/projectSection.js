@@ -44,8 +44,8 @@ const ProjectSection = () => {
                     link="/sharetevelde"
                     img={ShareteveldeBanner}
                     title="ShareTevelde"
-                    phrase="Landingspagina voor <strong>Connus</strong>"
-                    description="De landingspagina voor <strong>Connus</strong>: een app die bedrijven en influencer connecteert voor een optimale samenwerking."
+                    phrase="Feedback platform"
+                    description="Tijdens corona is het moeilijker om feedback van je medestudenten te krijgen op je creatieve werken. Daarom ontwikkelde ik dit platform."
                 />
             </div>
             <div className = "container">

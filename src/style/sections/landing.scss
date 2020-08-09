@@ -74,6 +74,7 @@
             border-radius: 50%;
             background-color: $red;
             z-index: 1;
+            transform: scale(0);
     
             transform: translate(-50%, -50%);
             transition: transform 0.5s cubic-bezier(.52,.57,.67,1.49), top 0.5s;
@@ -87,6 +88,7 @@
                 width: 65%;
                 margin: auto;
                 transition: opacity 0.1s;
+                -webkit-transform: translateZ(-1);
             }
         }
     }
