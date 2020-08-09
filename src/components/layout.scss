@@ -620,3 +620,41 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 80px 150px 0;
+  border-top: 10px solid #F29F05;
+  background-color: #FFF5E2;
+
+  img {
+    width: 200px;
+    max-height: 170px;
+  }
+  p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .footer-right {
+    text-align: right;
+  }
+
+  .footer-title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items:center;
+    padding: 0;
+    p {
+      text-align: center;
+    }
+  }
+}

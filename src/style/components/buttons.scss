@@ -6,6 +6,15 @@
     padding: 12px 0;
     border-radius: 4px;
     margin-right: 20px;
+
+}
+
+.primary-button:hover {
+    background-color: $orange-shade-2;
+}
+
+.primary-button:active {
+    background-color: $red;
 }
 
 .secondary-button {
@@ -19,6 +28,21 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+}
+
+.secondary-button:hover {
+    color: $text-white;
+    background-color: $orange-shade-2;
+    border: 2px solid $orange-shade-2;
+}
+
+.secondary-button:active {
+    background-color: $red;
+}
+
+.secondary-button--light {
+    border: 2px solid $text-white;
+    color: $text-white;
 }
 
 .next-section-button {

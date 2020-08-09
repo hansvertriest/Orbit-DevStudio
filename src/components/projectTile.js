@@ -9,7 +9,6 @@ const ProjectTile = (props) => {
     
     return(
         <div id={`project-tile-${props.title.split(' ').join('-')}`} className="project-tile" >
-            {/* <div className="project-tile__img" ></div> */}
             <img src={props.img} className="project-tile__img"/>
             <div className="project-tile__filter"></div>
             <div className="project-tile__container">

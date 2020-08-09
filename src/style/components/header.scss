@@ -16,14 +16,38 @@
         justify-content: space-between;
 
         height: 104px;
+
+        img {
+            width: 140px;
+            margin:0;
+        }
         .nav-section-container__logo {
             width: 140px;
         }
         .nav-section-container__nav {
             a{
+                width: 100px;
                 text-transform: uppercase;
                 margin: 0 14px;
             }
         }
+    }
+
+    .icon-group {
+        img {
+            margin: 10px;
+            width: 30px;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+            transition: all 0.2s;
+        }
+    }
+}
+
+@media only screen and (max-width: 678px) {
+    .nav-section__container {
+        justify-content: center;
     }
 }

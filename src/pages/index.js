@@ -1,19 +1,25 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 
-import { Landing, VisionSection, AboutMeSection, ProjectSection } from '../components/sections';
+import { Landing, VisionSection, AboutMeSection, ProjectSection, ContactSection } from '../components/sections';
 
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Orbit DevStudio</title>
+      <meta name="description" content="Homepage of Orbit DevStudio: a freelance web developer named Hans Vertriest."/>
+      <meta name="keywords" content="web, development, webdesign, website, freelance, app, application" />
+      <meta name="author" content="Hans Vertriest" />
+    </Helmet>
     <Landing />
     <VisionSection />
     <AboutMeSection />
     <ProjectSection />
+    <ContactSection />
   </Layout>
 )
 

@@ -1,10 +1,19 @@
 import React from "react"
+import { Helmet } from "react-helmet"
+
 
 import Layout from "../components/layout"
 
 
 const IndexPage = () => (
   <Layout>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Orbit DevStudio | Connus</title>
+      <meta name="description" content="Overzicht van het shop the dot project voor Creative Skill 21."/>
+      <meta name="keywords" content="web, development, webdesign, website, freelance, app, application, job match, job-match, creative skill 21" />
+      <meta name="author" content="Hans Vertriest" />
+    </Helmet>
     <div className="project-container">
     <div className="container">
       <h1>Mijn projecten</h1>
@@ -21,7 +30,9 @@ const IndexPage = () => (
           <h3>Teamleden</h3>
           <p>Jana Bruggeman, Maarten Luyckx, Margot Serpentier, Jef Vermeire, Maarten Oste</p>
          </div>
-        <div className="col-12 col-md-6"></div>
+        <div className="col-12">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GisDUe-j50g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
     </div>

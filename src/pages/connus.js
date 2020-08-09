@@ -1,10 +1,23 @@
 import React from "react"
+import { Helmet } from "react-helmet"
+
 
 import Layout from "../components/layout"
 
+import img0 from '../images/screenshots/connus-banner.png'
+import img1 from '../images/screenshots/connus-1.png'
+import img2 from '../images/screenshots/connus-2.png'
+import img3 from '../images/screenshots/connus-3.png'
 
 const IndexPage = () => (
   <Layout>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Orbit DevStudio | Connus</title>
+      <meta name="description" content="Overzicht van de website voor Connus samen met Jens Deryckere."/>
+      <meta name="keywords" content="web, development, webdesign, website, freelance, app, application, job match, job-match" />
+      <meta name="author" content="Hans Vertriest" />
+    </Helmet>
     <div className="project-container">
     <div className="container">
       <h1>Mijn projecten</h1>
@@ -13,14 +26,26 @@ const IndexPage = () => (
     <div className="container">
       <div className="row">
         <div className="col-12 col-md-6">
-          <h3>Introductie</h3>
-          <p>Voor deze schoolopdracht konden we kiezen wat we wouden maken. Omdat onze creatieve campus op Artevelde vaak versierd is met de werken van de studenten, maar tijdens corona dit uiteraard niet meer kon, besloot ik een social medium te maken waar studenten hun creatieve opdrachten op konden posten en vervolgens feedback op konden krijgen.</p>
+          <h3>Project</h3>
+          <p>De jonge startup Connus vroeg Jens Deryckere en mezelf om een prachtig design te ontwikkelen tot een echte website. Connus is een applicatie die zich toespitst op het connecteren van brands met de voor hen perfecte influencers. Samen brachten we hun verhaal naar de wereld doormiddel van deze landingspagina.</p>
+          <a href="https://www.connus.app">Bekijk de website</a>
           </div>
         <div className="col-12 col-md-6">
           <h3>Technologies</h3>
-          <p>Mongoose, React, Node, Express</p>
+          <p>React Native, Adobe XD, Github</p>
          </div>
-        <div className="col-12 col-md-6"></div>
+        <div className="col-12 col-md-6">
+          <img src={img0}/>
+        </div>
+        <div className="col-12 col-md-6">
+          <img src={img1}/>
+        </div>
+        <div className="col-12 col-md-6">
+          <img src={img2}/>
+        </div>
+        <div className="col-12 col-md-6">
+          <img src={img3}/>
+        </div>
       </div>
     </div>
     </div>

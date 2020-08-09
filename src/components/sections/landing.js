@@ -3,7 +3,7 @@ import React, {useEffect} from 'react';
 import {NextSectionButton, PrimaryButton, SecondaryButton} from '../buttons';
 
 import logo_empty from '../../images/logo_empty.svg';
-import logo_text from '../../images/logo_text.svg';
+import logo_text from '../../images/logo-text.png';
 import memoji from '../../images/memojis/thumb.png';
 
 const Landing = () => {
@@ -83,7 +83,6 @@ const Landing = () => {
 
     useEffect(() => {
         if (window.innerWidth >= 768) {
-            console.log('lg');
             animation(); 
         } else {
             console.log('sm');
@@ -93,6 +92,15 @@ const Landing = () => {
 
     const goToNextSection = () => {
         window.location.href = '#vision';
+    }
+
+    const goToContact = () => {
+        console.log('ddd');
+        window.location.href = '#contact';
+    }
+
+    const goToProjects = () => {
+        window.location.href = '#projects';
     }
 
     return (
@@ -122,9 +130,9 @@ const Landing = () => {
                     <p>Daarnaast startte ik als student zelfstandige het bedrijf Orbit DevStudio, waar ik als freelancer websites, webapplicaties en smartphone applicaties ontwikkel.</p>
                     <div className="landing-text__button-group d-flex d-md-block ">
                         {/* <button id="landing-contact-me" className="primary-button">Contacteer me</button> */}
-                        <PrimaryButton id="landing-contact-me" text="Contacteer me"/>
+                        <PrimaryButton action={goToContact} id="landing-contact-me" text="Contacteer me"/>
                         {/* <button id="landing-projects" className="secondary-button">Mijn projecten</button> */}
-                        <SecondaryButton id="landing-projects" text="Mijn projecten"/>
+                        <SecondaryButton action={goToProjects} id="landing-projects" text="Mijn projecten"/>
                     </div>
                 </div>
             </div>

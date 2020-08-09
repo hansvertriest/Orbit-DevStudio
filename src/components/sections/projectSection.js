@@ -10,8 +10,13 @@ import ShopTheDotBanner from '../../images/screenshots/shop-the-dot-banner.png'
 import GithubIcon from '../../images/icons/github.svg';
 
 const ProjectSection = () => {
+
+    const goToContactSection = () => {
+        window.location.href = '#contact';
+    }
+
     return(
-        <div className="project-section">
+        <div className="project-section" id="projects">
             <div className="container">
                 <h1>Mijn projecten.</h1>
                 <ProjectTile
@@ -50,7 +55,7 @@ const ProjectSection = () => {
                 </a>
             </div>
             <div className = "container">
-                <NextSectionButton text="Contacteer me"/>
+                <NextSectionButton callback={goToContactSection} text="Contacteer me"/>
             </div>
         </div>
     );
