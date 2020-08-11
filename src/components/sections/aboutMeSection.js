@@ -31,16 +31,16 @@ const AboutMeSection = () => {
                 <div className="about-me-text col-12 col-sm-8">
                     <h1>Wie ben ik?</h1>
                     <h2>Hans Vertriest</h2>
-                    <p>Ik ben een student aan de Artevelde hogeschool waar ik New Media Development studeer. </p>
-                    <p>Ik ben altijd opzoek naar nieuwe manieren om mijn kennis en skills toe te passen buiten de schoolcontext. Daarom startte ik als student zelfstandige Orbit DevStudio: mijn bedrijf waar ik als freelancer  websites, webapplicaties en smartphone applicaties ontwikkel.</p>
+                    <p>Ik ben student aan de Artevelde Hogeschool Gent waar ik New Media Development studeer. </p>
+                    <p>Ik ben altijd op zoek naar nieuwe manieren om mijn kennis en skills toe te passen, ook buiten de schoolcontext. Daarom startte ik als student zelfstandige Orbit DevStudio: mijn bedrijfje waar ik als freelancer websites, webapplicaties ontwikkel.</p>
 
-                    <h2>Werk ervaring</h2>
+                    <h2>Werkervaring</h2>
                     <ul className="work-list">
                         <WorkListItem>
-                            <p><strong>Vrijwilliger (hoofd-)animator</strong> - Speelplein Spelemee (2015 - 2018)</p>
+                            <p><strong>Vrijwilliger (hoofd-)animator</strong> - Speelplein Spelemee, Buggenhout (2015 - 2018)</p>
                         </WorkListItem>
                         <WorkListItem>
-                            <p><strong>Kassier medewerker</strong> - c&a Dendermonde (2018 - 2019)</p>
+                            <p><strong>Kassier</strong> - c&a, Dendermonde (2018 - 2019)</p>
                         </WorkListItem>
                         <WorkListItem>
                             <p><strong>Open Summer of Code</strong> - Open Knowledge Belgium (juli 2020)</p>
@@ -50,7 +50,7 @@ const AboutMeSection = () => {
 
                 <div className="side-bar--sm d-sm-none col-12">
                     <img src={AboutMeBubbles} />
-                    <p className="about-me-quote">“Ervaringen creëren die voor de gebruiker een ware meerwaarde zijn, is voor mij waar het allemaal om draait.”</p>
+                    <p className="about-me-quote">“Ervaringen creëren die voor de gebruiker een ware meerwaarde zijn", is voor mij waar het allemaal om draait.</p>
                 </div>
             </div>
 

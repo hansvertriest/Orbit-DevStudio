@@ -24,28 +24,28 @@ const ProjectSection = () => {
                     img={connusBanner}
                     title="Connus"
                     phrase="Landingspagina voor <strong>Connus</strong>"
-                    description="De landingspagina voor <strong>Connus</strong>: een app die bedrijven en influencer connecteert voor een optimale samenwerking."
+                    description="De landingspagina voor <strong>Connus</strong>: een app die bedrijven en influencers connecteert voor een optimale samenwerking."
                 />
                 <ProjectTile
                     link="/job-match"
                     img={jobMatchBanner}
                     title="Job-match"
                     phrase="Interactive story voor <strong>Infrabel</strong>"
-                    description="Project via <strong>Open Summer of Code</strong> om awareness te creëeren voor Infrabel en hun technische vacatures."
+                    description="Project via <strong>Open Summer of Code</strong> om awareness te creëren voor Infrabel en hun technische vacatures."
                 />
                 <ProjectTile
                     link="/shop-the-dot"
                     img={ShopTheDotBanner}
                     title="shop the dot"
                     phrase="Concept voor <strong>Creative Skills 21 </strong>"
-                    description="Een creatief concept voor een duurzamere mindset bij jongeren voor het Erasmus + project: <strong>Creative Skills 21</strong>"
+                    description="Een creatief concept voor een duurzamere mindset bij jongeren voor het Erasmus+ project: <strong>Creative Skills 21</strong>"
                 />
                 <ProjectTile
                     link="/sharetevelde"
                     img={ShareteveldeBanner}
                     title="ShareTevelde"
                     phrase="Feedback platform"
-                    description="Tijdens corona is het moeilijker om feedback van je medestudenten te krijgen op je creatieve werken. Daarom ontwikkelde ik dit platform."
+                    description="Tijdens corona is het moeilijker om feedback op je creatieve opdrachten te krijgen van je medestudenten. Daarom ontwikkelde ik dit platform."
                 />
             </div>
             <div className = "container">

@@ -21,6 +21,9 @@ const IndexPage = () => (
   </Helmet>
     <div className="project-container">
     <div className="container">
+
+    <a href="/#project">Terug naar overzicht</a>
+      <a href="/#project">Terug naar overzicht</a>
       <h1>Mijn projecten</h1>
         <h2>ShareTevelde</h2>
     </div>
@@ -28,11 +31,11 @@ const IndexPage = () => (
       <div className="row">
         <div className="col-12 col-md-6">
           <h3>Introductie</h3>
-          <p>Voor deze schoolopdracht konden we kiezen wat we wouden maken. Omdat onze creatieve campus op Artevelde vaak versierd is met de werken van de studenten, maar tijdens corona dit uiteraard niet meer kon, besloot ik een social medium te maken waar studenten hun creatieve opdrachten op konden posten en vervolgens feedback op konden krijgen.</p>
+          <p>Voor deze schoolopdracht konden we kiezen wat we wilden maken. Omdat onze creatieve campus op Artevelde vaak versierd is met de werken van de studenten, maar tijdens corona dit uiteraard niet meer kon, besloot ik een social medium te ontwikkelen waar studenten hun creatieve opdrachten konden op posten. Het platform laat het toe om feedback op de opdrachten uit te wisselen.</p>
         </div>
         <div className="col-12 col-md-6">
-          <h3>Technologies</h3>
-          <p>Mongoose, React, Node, Express</p>
+          <h3>Technologieën</h3>
+          <p>Mongoose, React, Node, Express, git, Figma</p>
          </div>
 
         <div className="col-12">

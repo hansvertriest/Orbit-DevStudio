@@ -126,8 +126,8 @@ const Landing = () => {
                     <h1 className=""><span>Hallo,</span> mijn naam is <strong>Hans Vertriest</strong></h1>
                     {/* <h1 className="d-sm-none">Hallo,<br/> mijn naam is <strong>Hans Vertriest</strong></h1> */}
                     <h2>Full-stack developer</h2>
-                    <p>Als student New Media Development word ik opgeleid tot full-stack developer.</p>
-                    <p>Daarnaast startte ik als student zelfstandige het bedrijf Orbit DevStudio, waar ik als freelancer websites, webapplicaties en smartphone applicaties ontwikkel.</p>
+                    <p>Als student New Media Development volg ik de opleiding tot full-stack developer.</p>
+                    <p>Daarnaast startte ik als student zelfstandige het bedrijf Orbit DevStudio, waar ik als freelancer websites, webapplicaties ontwikkel.</p>
                     <div className="landing-text__button-group d-flex d-md-block ">
                         {/* <button id="landing-contact-me" className="primary-button">Contacteer me</button> */}
                         <PrimaryButton action={goToContact} id="landing-contact-me" text="Contacteer me"/>
