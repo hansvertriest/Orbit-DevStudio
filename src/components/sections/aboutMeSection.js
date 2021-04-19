@@ -32,18 +32,21 @@ const AboutMeSection = () => {
                     <h1>Wie ben ik?</h1>
                     <h2>Hans Vertriest</h2>
                     <p>Ik ben student aan de Artevelde Hogeschool Gent waar ik New Media Development studeer. </p>
-                    <p>Ik ben altijd op zoek naar nieuwe manieren om mijn kennis en skills toe te passen, ook buiten de schoolcontext. Daarom startte ik als student zelfstandige Orbit DevStudio: mijn bedrijfje waar ik als freelancer websites, webapplicaties ontwikkel.</p>
+                    <p>Ik ben altijd op zoek naar nieuwe manieren om mijn kennis en skills toe te passen, ook buiten de schoolcontext. Daarom startte ik als student zelfstandige Orbit DevStudio: mijn bedrijfje waar ik als freelancer websites en webapplicaties ontwikkel.</p>
 
                     <h2>Werkervaring</h2>
                     <ul className="work-list">
                         <WorkListItem>
-                            <p><strong>Vrijwilliger (hoofd-)animator</strong> - Speelplein Spelemee, Buggenhout (2015 - 2018)</p>
+                            <p><strong>Internship</strong> - Bothrs Ghent (ongoing)</p>
+                        </WorkListItem>
+                        <WorkListItem>
+                            <p><strong>Open Summer of Code</strong> - Open Knowledge Belgium (juli 2020)</p>
                         </WorkListItem>
                         <WorkListItem>
                             <p><strong>Kassier</strong> - c&a, Dendermonde (2018 - 2019)</p>
                         </WorkListItem>
                         <WorkListItem>
-                            <p><strong>Open Summer of Code</strong> - Open Knowledge Belgium (juli 2020)</p>
+                            <p><strong>Vrijwilliger (hoofd-)animator</strong> - Speelplein Spelemee, Buggenhout (2015 - 2018)</p>
                         </WorkListItem>
                     </ul>
                 </div>

@@ -16,7 +16,7 @@ const IndexPage = () => (
     </Helmet>
     <div className="project-container">
     <div className="container">
-    <a href="/#project">Terug naar overzicht</a>
+    <a href="/#projects">Terug naar overzicht</a>
       <h1>Mijn projecten</h1>
         <h2>shop the dot</h2>
     </div>

@@ -7,6 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 import logo from '../images/logo.png'
@@ -33,7 +34,7 @@ const Layout = ({ children }) => {
         <footer>
           <div className="footer-left">
             <p className="footer-title"> Orbit DevStudio</p>
-            {/* <p> Freelance full-stack developer</p> */}
+            <p> BTW BE0751.705.458</p>
             <p> yes@orbitdevstudio.com</p>
           </div>
           <img src={logo} />

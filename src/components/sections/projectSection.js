@@ -9,6 +9,12 @@ import ShareteveldeBanner from '../../images/screenshots/sharetevelde-banner.png
 import ShopTheDotBanner from '../../images/screenshots/shop-the-dot-banner.png'
 import GithubIcon from '../../images/icons/github.svg';
 
+import meteoriumBanner from '../../images/screenshots/meteorium-banner.png'
+import ejBanner from '../../images/screenshots/ej-3.png'
+import vlugmoorBanner from '../../images/screenshots/vlugmoor-banner.png'
+import duckawayBanner from '../../images/screenshots/duckaway-banner.png'
+import kidokBanner from '../../images/screenshots/kidok-banner.png'
+
 const ProjectSection = () => {
 
     const goToContactSection = () => {
@@ -20,25 +26,39 @@ const ProjectSection = () => {
             <div className="container">
                 <h1>Mijn projecten.</h1>
                 <ProjectTile
-                    link="/connus"
-                    img={connusBanner}
-                    title="Connus"
-                    phrase="Landingspagina voor <strong>Connus</strong>"
-                    description="De landingspagina voor <strong>Connus</strong>: een app die bedrijven en influencers connecteert voor een optimale samenwerking."
+                    link="/meteorium"
+                    img={meteoriumBanner}
+                    title="Meteorium"
+                    phrase="NASA datavisualisation"
+                    description="Visualisation of shooting stars in our night-sky."
                 />
                 <ProjectTile
-                    link="/job-match"
-                    img={jobMatchBanner}
-                    title="Job-match"
-                    phrase="Interactive story voor <strong>Infrabel</strong>"
-                    description="Project via <strong>Open Summer of Code</strong> om awareness te creëren voor Infrabel en hun technische vacatures."
+                    link="/duckaway"
+                    img={duckawayBanner}
+                    title="DuckAway"
+                    phrase="Spread the duck!"
+                    description="Social experiment om te kijken hoe ver onze eendjes de wereld in raken"
                 />
                 <ProjectTile
-                    link="/shop-the-dot"
-                    img={ShopTheDotBanner}
-                    title="shop the dot"
-                    phrase="Concept voor <strong>Creative Skills 21 </strong>"
-                    description="Een creatief concept voor een duurzamere mindset bij jongeren voor het Erasmus+ project: <strong>Creative Skills 21</strong>"
+                    link="/kidok"
+                    img={kidokBanner}
+                    title="KidOk-kit"
+                    phrase="Digitale opvolgfiches"
+                    description="Leuke, interactieve fiches om de progressie van de kinderen in het Open Poortje op te volgen"
+                />
+                <ProjectTile
+                    link="/vlugmoor"
+                    img={vlugmoorBanner}
+                    title="UGent Vlugmoor"
+                    phrase="Maritieme datavisualisatie"
+                    description="Datavisualisatie van het effect van externe krachten op aangemeerde schepen"
+                />
+                <ProjectTile
+                    link="/enjoy-jobs"
+                    img={ejBanner}
+                    title="Enjoy Jobs"
+                    phrase="Frontend voro Enjoy Jobs"
+                    description="Makeover van de website voor een klant"
                 />
                 <ProjectTile
                     link="/sharetevelde"

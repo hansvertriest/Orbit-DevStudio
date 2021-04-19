@@ -20,7 +20,7 @@ const IndexPage = () => (
     </Helmet>
     <div className="project-container">
     <div className="container">
-      <a href="/#project">Terug naar overzicht</a>
+      <a href="/#projects">Terug naar overzicht</a>
       <h1>Mijn projecten</h1>
       <h2>Website Connus</h2>
     </div>
@@ -29,7 +29,6 @@ const IndexPage = () => (
         <div className="col-12 col-md-6">
           <h3>Project</h3>
           <p>De jonge startup Connus vroeg Jens Deryckere en mezelf om een prachtig design te ontwikkelen tot een echte website. Connus is een applicatie die zich toespitst op het connecteren van brands met de voor hen perfecte influencers. Samen brachten we hun verhaal naar de wereld door middel van deze landingspagina.</p>
-          <a href="https://www.connus.app">Bekijk de website</a>
           </div>
         <div className="col-12 col-md-6">
           <h3>Technologieën</h3>
